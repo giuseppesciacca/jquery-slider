@@ -53,6 +53,7 @@ img.jumbo_el {
 #thumbnails img:hover {
     scale: 1.1;
     opacity: 1;
+    cursor: pointer;
 }
 
 .active_thumb {
