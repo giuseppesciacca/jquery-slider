@@ -83,7 +83,7 @@ function populatingThumbnails(array) {
 
     array.forEach((element, index) => {
         const imagePath = element.image;
-        thumbnails.append(`<img src="assets/${imagePath}" alt="${element.title}" data-id="${index}" class="${index === actualIndex ? 'active_thumb' : ''} " >`);
+        thumbnails.append(`<img src="assets/${imagePath}" alt="${element.title}" data-id="${index}" class="${index === actualIndex ? 'active_thumb' : ''} " loading="lazy">`);
     });
 }
 
